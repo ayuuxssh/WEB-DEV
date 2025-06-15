@@ -1,0 +1,125 @@
+#navlist{
+    width:100%;
+    padding:15px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    list-style: none;
+    font-size:2.5rem;
+    display:flex;
+    justify-content: space-between;
+align-items:center;
+}
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    height:100%;
+    width:100%;
+    background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navcontainer{
+    width:100vw;
+    /* https://grabient.com/HQNgTAHANMAsEFYZjLKBaADMAzARmi2DAE4QZYTDtY8wNswQSY8B2cvXJh4BE+ui6ZMOIA/HQNgTAHANMAsEFYZjLKBaADMAzARmi2DAE4QZYTDtY8wNswQSY8B2cvXJh4BE%2Bui6ZMOIA?style=angularSwatches&steps=15&angle=210 */
+
+background: conic-gradient(from 210deg, rgba(197, 187, 184, 1.000) 0.000deg, rgba(197, 187, 184, 1.000) 24.000deg, rgba(184, 181, 184, 1.000) 24.000deg, rgba(184, 181, 184, 1.000) 48.000deg, rgba(169, 175, 183, 1.000) 48.000deg, rgba(169, 175, 183, 1.000) 72.000deg, rgba(154, 168, 181, 1.000) 72.000deg, rgba(154, 168, 181, 1.000) 96.000deg, rgba(139, 161, 179, 1.000) 96.000deg, rgba(139, 161, 179, 1.000) 120.000deg, rgba(125, 152, 175, 1.000) 120.000deg, rgba(125, 152, 175, 1.000) 144.000deg, rgba(112, 144, 171, 1.000) 144.000deg, rgba(112, 144, 171, 1.000) 168.000deg, rgba(101, 135, 166, 1.000) 168.000deg, rgba(101, 135, 166, 1.000) 192.000deg, rgba(92, 126, 161, 1.000) 192.000deg, rgba(92, 126, 161, 1.000) 216.000deg, rgba(85, 117, 155, 1.000) 216.000deg, rgba(85, 117, 155, 1.000) 240.000deg, rgba(81, 108, 148, 1.000) 240.000deg, rgba(81, 108, 148, 1.000) 264.000deg, rgba(79, 99, 141, 1.000) 264.000deg, rgba(79, 99, 141, 1.000) 288.000deg, rgba(80, 90, 133, 1.000) 288.000deg, rgba(80, 90, 133, 1.000) 312.000deg, rgba(84, 83, 125, 1.000) 312.000deg, rgba(84, 83, 125, 1.000) 336.000deg, rgba(91, 75, 116, 1.000) 336.000deg 360.000deg);
+    min-height:80px;
+    display:flex;
+justify-content: center;
+align-items:center;
+
+}
+#navlogo{
+    font-size:2.8rem;
+    color:beige;
+}
+nav{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:#051937;
+}
+#Items{
+    display:flex;
+    gap:40px;
+}
+.Footerbox{
+    /* https://grabient.com/HQNgTAHANMAsEFYZjLKBaADMAzARmi2DAE4QZYTDtY8wNswQSY8B2cvXJh4BE+ui6ZMOIA/HQNgTAHANMAsEFYZjLKBaADMAzARmi2DAE4QZYTDtY8wNswQSY8B2cvXJh4BE%2Bui6ZMOIA?style=angularSwatches&steps=15&angle=210 */
+
+background: conic-gradient(from 210deg, rgba(197, 187, 184, 1.000) 0.000deg, rgba(197, 187, 184, 1.000) 24.000deg, rgba(184, 181, 184, 1.000) 24.000deg, rgba(184, 181, 184, 1.000) 48.000deg, rgba(169, 175, 183, 1.000) 48.000deg, rgba(169, 175, 183, 1.000) 72.000deg, rgba(154, 168, 181, 1.000) 72.000deg, rgba(154, 168, 181, 1.000) 96.000deg, rgba(139, 161, 179, 1.000) 96.000deg, rgba(139, 161, 179, 1.000) 120.000deg, rgba(125, 152, 175, 1.000) 120.000deg, rgba(125, 152, 175, 1.000) 144.000deg, rgba(112, 144, 171, 1.000) 144.000deg, rgba(112, 144, 171, 1.000) 168.000deg, rgba(101, 135, 166, 1.000) 168.000deg, rgba(101, 135, 166, 1.000) 192.000deg, rgba(92, 126, 161, 1.000) 192.000deg, rgba(92, 126, 161, 1.000) 216.000deg, rgba(85, 117, 155, 1.000) 216.000deg, rgba(85, 117, 155, 1.000) 240.000deg, rgba(81, 108, 148, 1.000) 240.000deg, rgba(81, 108, 148, 1.000) 264.000deg, rgba(79, 99, 141, 1.000) 264.000deg, rgba(79, 99, 141, 1.000) 288.000deg, rgba(80, 90, 133, 1.000) 288.000deg, rgba(80, 90, 133, 1.000) 312.000deg, rgba(84, 83, 125, 1.000) 312.000deg, rgba(84, 83, 125, 1.000) 336.000deg, rgba(91, 75, 116, 1.000) 336.000deg 360.000deg);
+color:azure;
+font-size:2rem;
+text-align: center;
+}
+.containerbox{
+    width:70%;
+    margin:auto;
+    border:solid black 1px;
+    background-color: beige;
+    display: flex;
+    flex-direction:column;
+    border-radius: 2px;;
+    gap:100px;
+    padding:3em;
+    box-shadow:3px 3px 30px black;
+}
+.item{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+.rightbox img{
+    height:300px;
+    width:300px;
+    border-radius: 20px;
+    transition:all 0.6s linear;
+}
+.rightbox:hover{
+    transform:scale(1.1);
+
+}
+.leftbox{
+    display:flex;
+    gap:20px;
+    flex-direction:column;
+    font-style: italic;
+
+}
+h2{
+    font-size:2rem;
+}
+.rightbox{
+    position:relative;
+    transition:all 0.6s linear;
+    border-radius: 20px;
+}
+.rightbox .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color: rgba(74, 74, 74, 0.821);
+    border-radius: 20px;
+    display:flex;
+    opacity:0;
+    justify-content: center;
+    align-items: center;
+    transition:all 0.6s linear;
+}
+
+.rightbox:hover .overlay{
+    opacity:1;
+}
+
+.rightbox .overlay span{
+    color:white;
+    font-size: 1.2em;
+}
+
