@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.bodycontainer{
+    height:100%;
+    width:100%;
+}
+.divheader{
+    margin-bottom: 2.8rem;
+}
+.container{
+    max-width: 66vw;
+    padding:2rem 1rem;
+    margin:0 auto;
+    gap:10px;
+}
+a{
+    text-decoration: none;
+}
+.author_container{
+display: flex;
+align-items: center;
+gap:1rem;
+}
+
+.divbody{
+    display:grid;
+    gap:1.5 rem;
+    grid-template-columns: repeat(1,1fr);
+
+}
+@media(min-width:650px) {
+    .divbody{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(min-width:1080px) {
+    .divbody{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(min-width:1380px) {
+    .divbody{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.headertitle{
+margin-bottom: 1 rem;
+font-size: 1.7rem;
+text-align: center;
+font-weight: 700;
+}
+.headerp{
+text-align:center;
+max-width: 568px;
+color:rgb(116, 110, 110);
+margin:0 auto;
+}
+.cardcontainer{
+    display:flex;
+    flex-direction:column;
+    border:1px solid rgb(133, 129, 129);
+    border-radius: 8px;
+}
+.imagea{
+position:relative;
+overflow: hidden;
+height:7rem;
+}
+.cardimage{
+object-fit: cover;
+object-position: center;
+position: absolute;
+height: 100%;
+width: 100%;
+}
+.cardcontainer:hover.cardimage{
+    transform:scale(1.2);
+    transition-duration: 200ms;
+}
+.divdescription{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+
+}
+.carddescription{
+font-size: 1rem;
+font-weight: 600;
+color:rgb(76, 72, 72);
+line-height: 1.5 rem;
+margin-bottom: 0.3 rem;
+}
+.carddescription:hover{
+    color:rgb(59, 59, 133);
+}
+.cardbody{
+font-size: .9rem;
+color:rgb(91, 87, 87)
+}
+.divfooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:0 1.5 rem;
+    padding-bottom: 1.5 rem;
+}
+.authoravatar{
+height:2.5rem;
+width: 2.5rem;
+border:1px solid rgb(152, 140, 140);
+border-radius: 50%;
+overflow:hidden;
+background-color: rgb(239, 224, 224);
+}
+.author_info{
+display:flex;
+flex-direction: column;
+
+}
+.Name{
+    font-size: .8rem;
+    color:rgb(88, 84, 84)
+}
+.Date{
+    font-size: .8rem;
+    color:rgb(76, 72, 72)
+
+}
+.tagcontainer{
+font-size:0.9rem;
+border:1px solid rgb(150, 146, 146);
+border-radius: 4px;
+line-height: 1.3 rem;
+padding:0.25 rem 0.5 rem;
+color:grey;
+}
